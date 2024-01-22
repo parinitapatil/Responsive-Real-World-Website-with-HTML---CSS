@@ -1,6 +1,9 @@
-# Responsive Real World Website with HTML & CSS
+# <p align="center"> Responsive Real World Website with HTML & CSS</p>
 
-![Illustrations, Poster Festivals, Editorial Illustrations, Art, and Art Concepts image inspiration on Designspiration](https://github.com/parinitapatil/Responsive-Real-World-Website-with-HTML---CSS/assets/119065651/bfa6ce15-9022-4dbf-af49-3d231a58abc7)
+<p align="center">
+  <img src="https://github.com/parinitapatil/Responsive-Real-World-Website-with-HTML---CSS/assets/119065651/bfa6ce15-9022-4dbf-af49-3d231a58abc7" alt="Illustrations, Poster Festivals, Editorial Illustrations, Art, and Art Concepts image inspiration on Designspiration" width="400">
+</p>
+
 
 
 A responsive and modern real-world website built using HTML and CSS. This project demonstrates the implementation of responsive design principles to ensure optimal user experience across various devices and screen sizes.

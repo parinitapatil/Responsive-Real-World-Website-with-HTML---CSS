@@ -26,3 +26,40 @@
 
 
 <!-- 🦉 HTML document structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Page Title</title>
+    <!-- Additional meta tags, link to stylesheets, or scripts can go here -->
+</head>
+<body>
+
+    <!-- Content of your webpage goes here -->
+
+    <h1>This is a Heading</h1>
+    <p>This is a paragraph of text.</p>
+
+    <!-- More HTML elements can be added as needed -->
+
+</body>
+</html>
+
+<!DOCTYPE html>: This declaration defines the document type and version of HTML. In modern web development, <!DOCTYPE html> is used to specify HTML5.
+
+<html lang="en">: The root element of the HTML document. The lang attribute is optional but recommended for specifying the language of the document.
+
+<head>: This section contains meta-information about the document, such as character set, viewport settings, and the page title.
+
+<meta charset="UTF-8">: Specifies the character encoding for the document (UTF-8 is widely used for web content).
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">: Configures the viewport for responsive design on various devices.
+
+<title>Your Page Title</title>: Sets the title of the webpage, which is displayed in the browser's title bar or tab.
+
+Additional meta tags, links to external stylesheets, or scripts can be included in the <head> section as needed.
+
+<body>: The main content of the HTML document goes inside the <body> tag.
+
+Various HTML elements (e.g., headings, paragraphs, images, links, etc.) can be used to structure and present content within the <body>.

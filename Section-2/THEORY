@@ -1,0 +1,94 @@
+🟡INTRODUCTION TO CSS
+
+🔻 Cascading Style Sheet
+🔻 CSS dscribes the visual style and presentation of the content written in HTML
+🔻 CSS consists of countless properties that developers use to format the content : properties about font, text, spacing, layout, etc.
+
+👩‍💻 Code-Snippet
+
+SELECTOR
+⬇️
+h1 {
+
+PROPERTY ➡️ color: blue;
+            text-align: center;
+            font-size: 20px;
+                         ⬆️
+                        VALUE
+}
+
+
+🟡INLINE, INTERNAL & EXTERNAL CSS
+
+
+1. 😆Inline CSS: Styling applied directly within the HTML element.
+
+👩‍💻Code-Snippet
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+</head>
+<body>
+    <h1 style="color: blue;">This is styled using inline CSS</h1>
+    <p>This is a paragraph.</p>
+</body>
+</html>
+
+
+2. 😆Internal CSS: Styling defined within the `<style>` tag in the `<head>` section of the HTML document.
+
+👩‍💻Code-Snippet
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <style>
+        p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h1>This is a heading.</h1>
+    <p>This is styled using internal CSS.</p>
+</body>
+</html>
+```
+
+3. 😆External CSS: Styling defined in a separate CSS file and linked to the HTML document.
+
+👩‍💻Code-Snippet
+
+HTML file (index.html):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal & External CSS</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>This is a heading.</h1>
+    <p>This is styled using external CSS.</p>
+</body>
+</html>
+
+
+CSS file (`styles.css`):
+
+
+p {
+    color: red;
+}
+
+
+These examples demonstrate the usage of inline, internal, and external CSS styles in HTML documents.

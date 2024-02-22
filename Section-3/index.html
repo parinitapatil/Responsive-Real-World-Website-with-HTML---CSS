@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accordion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <style>
+        .accordion{
+            width: 700px;
+            margin: 100px auto;
+            box-shadow: 0px 0px 32px  rgb(213, 213, 213);
+            padding: 24px;
+        }
+        .number{
+            font-size: 24px;
+        }
+        .question{
+            font-size: 24px;
+        }
+        .hidden-box{
+           
+        }
+        .hidden-box p{
+            margin-bottom: 25px;
+            line-height: 1.6;
+        }
+        .hidden-box ul{
+            display: flex;
+            flex-direction: column;
+            gap: 7px;
+            color: rgb(75, 75, 75);
+            font-weight: ;
+        }
+
+        .content{
+
+        }
+        .icon{
+            width: 24px;
+        }
+        .box{
+            display: flex;
+            font-weight: 500;
+            color: rgb(6, 78, 6);
+            cursor: pointer;
+        }
+        .box .number{
+            margin-right: 20px;
+        }
+        .box .question{
+
+        }
+    </style>
+</head>
+<body>
+    <div class="accordion">
+        <div class="box">
+        <p class="number">02</p>
+        <p class="question">How long will it take to Refund?</p>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+        </svg>
+        </div>
+        <div class="hidden-box">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid assumenda libero nisi debitis doloremque corrupti nostrum? Sit, nostrum. Possimus non, omnis molestias sunt itaque consequatur odio deserunt quibusdam impedit!</p>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
+                <li>  Vel pariatur repellendus fugit maxime eligendi dolore.</li>
+                <li>repudiandae rerum veritatis nostrum sint distinctio ut id harum unde hic a voluptatem, cumque doloribus!</li>
+                <li>Lorem accusamus iste similique at unde nihil ullam officiis architecto id vero, explicabo quisquam placeat harum! </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

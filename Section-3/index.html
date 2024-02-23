@@ -12,68 +12,121 @@
         .accordion{
             width: 700px;
             margin: 100px auto;
-            box-shadow: 0px 0px 32px  rgb(213, 213, 213);
-            padding: 24px;
+            
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
         }
         .number{
-            font-size: 24px;
+            font-size: 22px;
+            font-weight: 450;
+            color: rgb(159, 159, 159);
         }
+        .display-n{
+            color: rgb(16, 91, 16);
+        }
+        .display-q{
+            color: rgb(16, 91, 16);
+        }
+
         .question{
-            font-size: 24px;
+            font-size: 22px;
+            font-weight: 450;
+            color: rgb(68, 68, 68);
         }
         .hidden-box{
-           
+           grid-column: 2;
+           display: none;
         }
         .hidden-box p{
-            margin-bottom: 25px;
+            margin-bottom: 24px;
             line-height: 1.6;
         }
         .hidden-box ul{
             display: flex;
             flex-direction: column;
-            gap: 7px;
+            gap: 12px;
             color: rgb(75, 75, 75);
-            font-weight: ;
-        }
-
-        .content{
-
+            margin-bottom: 24px;
         }
         .icon{
             width: 24px;
+            stroke:  rgb(16, 91, 16);
         }
         .box{
-            display: flex;
-            font-weight: 500;
-            color: rgb(6, 78, 6);
-            cursor: pointer;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            align-items: center;
+            column-gap: 24px;
+            padding:12px;
+            box-shadow: 0px 0px 32px  rgb(201, 201, 201);
+            
         }
-        .box .number{
-            margin-right: 20px;
+        .open{
+            border-top: 6px solid rgb(19, 108, 19);
         }
-        .box .question{
-
+        .open .hidden-box{
+            display: block;
         }
     </style>
 </head>
 <body>
     <div class="accordion">
         <div class="box">
-        <p class="number">02</p>
+        <p class="number">01</p>
         <p class="question">How long will it take to Refund?</p>
         <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
         <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
         </svg>
-        </div>
+        
         <div class="hidden-box">
             <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid assumenda libero nisi debitis doloremque corrupti nostrum? Sit, nostrum. Possimus non, omnis molestias sunt itaque consequatur odio deserunt quibusdam impedit!</p>
             <ul>
                 <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
                 <li>  Vel pariatur repellendus fugit maxime eligendi dolore.</li>
-                <li>repudiandae rerum veritatis nostrum sint distinctio ut id harum unde hic a voluptatem, cumque doloribus!</li>
-                <li>Lorem accusamus iste similique at unde nihil ullam officiis architecto id vero, explicabo quisquam placeat harum! </li>
+                <li>repudiandae rerum veritatis nostrum sint distinctio ut id !</li>
+                <li>Lorem accusamus iste similique at unde nihil ullam officiis ! </li>
             </ul>
+            </div>
+        </div>
+    
+        <div class="box open">
+        <p class="number display-n">02</p>
+        <p class="question display-q">Do you offer any Discount?</p>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+        </svg>
+        
+        <div class="hidden-box">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid assumenda libero nisi debitis doloremque corrupti nostrum? Sit, nostrum. Possimus non, omnis molestias sunt itaque consequatur odio deserunt quibusdam impedit!</p>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
+                <li>  Vel pariatur repellendus fugit maxime eligendi dolore.</li>
+                <li>repudiandae rerum veritatis nostrum sint distinctio ut id !</li>
+                <li>Lorem accusamus iste similique at unde nihil ullam officiis ! </li>
+            </ul>
+            </div>
+        </div>
+   
+        <div class="box">
+        <p class="number">03</p>
+        <p class="question">Are there any Assignments and Mock test?</p>
+        <svg class="icon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+        </svg>
+        
+        <div class="hidden-box">
+            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet aliquid assumenda libero nisi debitis doloremque corrupti nostrum? Sit, nostrum. Possimus non, omnis molestias sunt itaque consequatur odio deserunt quibusdam impedit!</p>
+            <ul>
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </li>
+                <li>  Vel pariatur repellendus fugit maxime eligendi dolore.</li>
+                <li>repudiandae rerum veritatis nostrum sint distinctio ut id !</li>
+                <li>Lorem accusamus iste similique at unde nihil ullam officiis ! </li>
+            </ul>
+            </div>
         </div>
     </div>
+
+
 </body>
 </html>

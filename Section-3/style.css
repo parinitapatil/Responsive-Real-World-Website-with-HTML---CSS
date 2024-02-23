@@ -2,3 +2,62 @@
   font-family: "Roboto", sans-serif;
   font-style: normal;
 }
+.accordion{
+    width: 700px;
+    margin: 100px auto;
+            
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.number{
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(159, 159, 159);
+}
+.display-n{
+    color: rgb(16, 91, 16);
+}
+.display-q{
+    color: rgb(16, 91, 16);
+}
+
+.question{
+    font-size: 22px;
+    font-weight: 450;
+    color: rgb(68, 68, 68);
+}
+.hidden-box{
+    grid-column: 2;
+    display: none;
+}
+.hidden-box p{
+    margin-bottom: 24px;
+    line-height: 1.6;
+}
+.hidden-box ul{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    color: rgb(75, 75, 75);
+    margin-bottom: 24px;
+}
+.icon{
+    width: 24px;
+    stroke:  rgb(16, 91, 16);
+}
+.box{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    column-gap: 24px;
+    padding:12px;
+    box-shadow: 0px 0px 32px  rgb(201, 201, 201);
+            
+}
+.open{
+    border-top: 6px solid rgb(19, 108, 19);
+}
+.open .hidden-box{
+    display: block;
+}
